@@ -1,0 +1,28 @@
+name: Soulus
+version: 1.0
+main: me.aphetz.kitpvp.Main
+api-version: 1.17
+authors: [ Aphetz ]
+description: Soulus remake in Java
+commands:
+  kitselector:
+    description: Kitselector command
+    usage: /kitselector
+    permission: soulus.kitselector
+  setspawn:
+    description: Sets the spawn
+    usage: /setspawn
+    permission: soulus.spawn.set
+  spawn:
+    description: Teleports the player to spawn
+    usage: /spawn
+    permission: soulus.spawn
+  shop:
+    description: Shop command
+    usage: /shop
+    permission: soulus.shop
+  balance:
+    description: Balance command
+    usage: /balance (player)
+    aliases: bal
+    permission: soulus.balance

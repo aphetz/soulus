@@ -1,0 +1,12 @@
+selected_class: []
+warrior_class: []
+archer_class: []
+tank_class: []
+balance: []
+spawn:
+  world: "World"
+  x: -247.0
+  y: 66.0
+  z: -61.0
+  pitch: 90
+  yaw: 0
